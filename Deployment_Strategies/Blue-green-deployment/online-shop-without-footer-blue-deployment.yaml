@@ -34,7 +34,7 @@ metadata:
 spec:
   selector:
     app: online-shop-blue
-  type: NodePort
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 3001
