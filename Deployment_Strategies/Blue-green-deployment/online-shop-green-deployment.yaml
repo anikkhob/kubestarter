@@ -34,7 +34,7 @@ metadata:
 spec:
   selector:
     app: online-shop-green
-  type: NodePort
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 3000
