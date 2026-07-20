@@ -141,6 +141,10 @@
     kubectl port-forward --address 0.0.0.0 svc/online-shop-blue-deployment-service 30001:3001 -n blue-green-ns &
     ```
 
+
+-  Using AWS LoadBalancer
+   kubectl apply -f alb-service.yaml 
+
 - Check now, the application has added a new feature as `with footer online shop`, as it previously did not have a footer, but it is now added as a feature, check at URL:
 
     ```bash
